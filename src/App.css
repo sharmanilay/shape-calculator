@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   padding: 30px;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -65,4 +66,27 @@ button{
 .result{
   margin: 50px;
   font-size: 30px;
+}
+@media screen and (max-width: 600px) {
+  .App{
+    padding: 10px;
+  }
+  .brand{
+    font-size: 25px;
+    padding-left: 80px;
+    font-weight: 400;
+  }
+  .main-div{
+    padding:10px;
+  }
+  .side-content{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .main-form{
+    padding: 10px;
+  }
+  .result{
+    margin:10px;
+  }
 }
