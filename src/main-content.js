@@ -88,20 +88,20 @@ export default class MainContent extends Component{
                       to calculate the area of and press the
                       button "Go to step 2"
                     </p>
-                        <Radio value="Rectangle" onChange={this.handleOptionChange} checked={this.state.shape==="Rectangle"} inputRef={ref => { this.input = ref; }}  name="radioGroup">
+                        <Radio  className="radio-group" value="Rectangle" onChange={this.handleOptionChange} checked={this.state.shape==="Rectangle"}  name="radioGroup">
                           Rectangle
                         </Radio>{' '}
-                        <Radio value="Circle" onChange={this.handleOptionChange} checked={this.state.shape==="Circle"} name="radioGroup">
+                        <Radio className="radio-group" value="Circle" onChange={this.handleOptionChange} checked={this.state.shape==="Circle"} name="radioGroup">
                           Circle
                         </Radio>{' '}
-                        <Radio value="Square" onChange={this.handleOptionChange} checked={this.state.shape==="Square"} name="radioGroup">
+                        <Radio className="radio-group" value="Square" onChange={this.handleOptionChange} checked={this.state.shape==="Square"} name="radioGroup">
                           Square
                         </Radio>
-                        <Radio value="Ellipse" onChange={this.handleOptionChange} checked={this.state.shape==="Ellipse"} name="radioGroup">
+                        <Radio className="radio-group" value="Ellipse" onChange={this.handleOptionChange} checked={this.state.shape==="Ellipse"} name="radioGroup">
                           Ellipse
                         </Radio>{' '}
-                        <Button onClick={this.step2}>Go to step {this.state.step+1}</Button>
-                        <Button onClick={this.step1}>Cancel</Button>
+                        <Button className="ani" onClick={this.step2}>Go to step {this.state.step+1}</Button>
+                        <Button className="ani" onClick={this.step1}>Cancel</Button>
                       </FormGroup>;
     }else if(step===2){
       mainForm = <FormGroup>
@@ -113,12 +113,12 @@ export default class MainContent extends Component{
                   </FormGroup>;
     }else if(step===3){
         mainForm = <FormGroup>
-                      <h3>Step 3:Calculated area</h3>
+                      <h3>Step 3: Calculated area</h3>
                       <p>You have calculated the area of a <b>{this.state.shape}</b> with
                         {this.state.text}
                       </p>
                       <p className="result">The area is {this.state.area}</p>
-                        <Button onClick={this.step1}>Start Over </Button>
+                        <Button className="ani" onClick={this.step1}>Start Over </Button>
                     </FormGroup>;
     }
 

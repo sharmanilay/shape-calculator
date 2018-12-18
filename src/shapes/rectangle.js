@@ -84,8 +84,8 @@ export default class Rectangle extends Component{
       />
       <FormControl.Feedback />
       </FormGroup>
-      <Button onClick={this.handleSubmit}>Go to step 3</Button>
-      <Button onClick={this.props.cancel}>Cancel</Button>
+      <Button className="ani" onClick={this.handleSubmit}>Go to step 3</Button>
+      <Button className="ani" onClick={this.props.cancel}>Cancel</Button>
       </div>
     );
   }
