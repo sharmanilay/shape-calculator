@@ -5,7 +5,7 @@ export default class Footer extends Component{
   render(){
     return(
       <footer>
-        <Grid fluid="true">
+        <Grid fluid={true}>
           <Row>
             <Col className="footer-brand" xs={12} md={6}>
                 <h2>Bombayworks</h2>
