@@ -19,6 +19,7 @@
   border-color: var(--main-color);
 }
 .head{
+  margin-bottom: 0;
   background-color: var(--main-color);
   font-family: 'Lobster Two', cursive;
   font-style: italic;
@@ -38,15 +39,25 @@
   color: #61dafb;
 }
 .side-content{
+  margin-top: 0;
   text-align: left;
   padding-left:60px;
   padding-right: 60px;
+  margin-bottom: 30px;
+}
+.lorem-heading{
+  margin-top:0;
+}
+.row{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .main-div{
-  padding:30px;
+  padding:0px 30px 30px 30px;
 }
 .main-form{
   padding: 10px 40px 20px 40px;
+  margin-bottom: 10px;
   color: #f1ffff;
   background-color: var(--main-color);
   border: 1px solid black;
@@ -105,7 +116,8 @@ button{
 }
 
 footer{
-  position: fixed;
+  position: absolute;
+  overflow-x: hidden;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -124,10 +136,10 @@ footer{
   margin: 50px;
   font-size: 30px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 992px) {
   .brand{
     font-size: 30px;
-    padding-left: 110px;
+    padding-left: 90px;
     font-weight: 400;
   }
   .main-div{
@@ -138,6 +150,8 @@ footer{
     padding-right: 10px;
   }
   .main-form{
+
+    margin-left: 10px;
     padding: 10px;
   }
   .result{

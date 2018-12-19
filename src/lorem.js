@@ -4,7 +4,7 @@ export default class Lorem extends Component{
   render(){
     return(
       <div className="side-content">
-        <h2>Welcome to Shape Calculator</h2>
+        <h2 className="lorem-heading">Welcome to Shape Calculator</h2>
         <h4>
           Shape Calculator is an interactive web application.
           To the right you will ﬁnd the 3 step application.
