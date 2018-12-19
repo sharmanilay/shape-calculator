@@ -128,7 +128,7 @@ export default class MainContent extends Component{
             <Col xs={12} md={6}>
               <Lorem  />
             </Col>
-            <Col xs={8} md={4}>
+            <Col xs={7} md={4}>
               <div className="main-form">
                 <div className="form-wrapper">
                     <Form className="form">
@@ -137,7 +137,7 @@ export default class MainContent extends Component{
                 </div>
               </div>
             </Col >
-            <Col xs={4} md={2}>
+            <Col xs={5} md={2}>
                 <Image src={ad} alt="ad" />
             </Col>
         </Row>
