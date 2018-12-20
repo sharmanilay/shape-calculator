@@ -1,13 +1,13 @@
 {
-  "main.css": "/shape-calculator/static/css/main.143c8030.chunk.css",
-  "main.js": "/shape-calculator/static/js/main.b7f3d46a.chunk.js",
-  "main.js.map": "/shape-calculator/static/js/main.b7f3d46a.chunk.js.map",
-  "static/js/1.b5075dbf.chunk.js": "/shape-calculator/static/js/1.b5075dbf.chunk.js",
-  "static/js/1.b5075dbf.chunk.js.map": "/shape-calculator/static/js/1.b5075dbf.chunk.js.map",
+  "main.css": "/shape-calculator/static/css/main.0d12e56b.chunk.css",
+  "main.js": "/shape-calculator/static/js/main.d7dd5855.chunk.js",
+  "main.js.map": "/shape-calculator/static/js/main.d7dd5855.chunk.js.map",
+  "static/js/1.57617dce.chunk.js": "/shape-calculator/static/js/1.57617dce.chunk.js",
+  "static/js/1.57617dce.chunk.js.map": "/shape-calculator/static/js/1.57617dce.chunk.js.map",
   "runtime~main.js": "/shape-calculator/static/js/runtime~main.21226472.js",
   "runtime~main.js.map": "/shape-calculator/static/js/runtime~main.21226472.js.map",
-  "static/css/main.143c8030.chunk.css.map": "/shape-calculator/static/css/main.143c8030.chunk.css.map",
+  "static/css/main.0d12e56b.chunk.css.map": "/shape-calculator/static/css/main.0d12e56b.chunk.css.map",
   "index.html": "/shape-calculator/index.html",
-  "precache-manifest.fc0b2a146534d7af96843107a19fb0db.js": "/shape-calculator/precache-manifest.fc0b2a146534d7af96843107a19fb0db.js",
+  "precache-manifest.b74710392c403e688b375423a6b026db.js": "/shape-calculator/precache-manifest.b74710392c403e688b375423a6b026db.js",
   "service-worker.js": "/shape-calculator/service-worker.js"
 }
