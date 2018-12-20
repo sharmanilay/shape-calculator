@@ -10,7 +10,6 @@ export default class Rectangle extends Component{
       area: 0,
       validated: false,
     };
-  //  this.getValidationState = this.getValidationState.bind(this);
     this.handleLengthChange = this.handleLengthChange.bind(this);
     this.handleBreadthChange = this.handleBreadthChange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);

@@ -56,7 +56,6 @@ export default class Ellipse extends Component{
     if(this.getValidationState()==="success"){
       let area = this.state.area;
       let text = ` x-axis of ${this.state.length} and y-axis of ${this.state.breadth}. Below is your result:`
-      console.log(area);
       this.props.carea(area,text);
     }
   }
