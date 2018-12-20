@@ -1,13 +1,13 @@
 {
   "main.css": "/shape-calculator/static/css/main.0d12e56b.chunk.css",
-  "main.js": "/shape-calculator/static/js/main.d7dd5855.chunk.js",
-  "main.js.map": "/shape-calculator/static/js/main.d7dd5855.chunk.js.map",
+  "main.js": "/shape-calculator/static/js/main.d5eb221b.chunk.js",
+  "main.js.map": "/shape-calculator/static/js/main.d5eb221b.chunk.js.map",
   "static/js/1.57617dce.chunk.js": "/shape-calculator/static/js/1.57617dce.chunk.js",
   "static/js/1.57617dce.chunk.js.map": "/shape-calculator/static/js/1.57617dce.chunk.js.map",
   "runtime~main.js": "/shape-calculator/static/js/runtime~main.21226472.js",
   "runtime~main.js.map": "/shape-calculator/static/js/runtime~main.21226472.js.map",
   "static/css/main.0d12e56b.chunk.css.map": "/shape-calculator/static/css/main.0d12e56b.chunk.css.map",
   "index.html": "/shape-calculator/index.html",
-  "precache-manifest.b74710392c403e688b375423a6b026db.js": "/shape-calculator/precache-manifest.b74710392c403e688b375423a6b026db.js",
+  "precache-manifest.3db330bc37ee134f65ee578f4b062ecc.js": "/shape-calculator/precache-manifest.3db330bc37ee134f65ee578f4b062ecc.js",
   "service-worker.js": "/shape-calculator/service-worker.js"
 }
