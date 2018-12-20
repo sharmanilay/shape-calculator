@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/shape-calculator/static/js/runtime~main.21226472.js"
   },
   {
-    "revision": "d5eb221b1148302a6fb0",
-    "url": "/shape-calculator/static/js/main.d5eb221b.chunk.js"
+    "revision": "00ae1d65b25a841d19a4",
+    "url": "/shape-calculator/static/js/main.00ae1d65.chunk.js"
   },
   {
     "revision": "57617dce2ac20f996974",
     "url": "/shape-calculator/static/js/1.57617dce.chunk.js"
   },
   {
-    "revision": "d5eb221b1148302a6fb0",
+    "revision": "00ae1d65b25a841d19a4",
     "url": "/shape-calculator/static/css/main.0d12e56b.chunk.css"
   },
   {
-    "revision": "064e407b8b3ca45831dac65000fdcced",
+    "revision": "04506e3f7d500a1b5745b3cb0928be4c",
     "url": "/shape-calculator/index.html"
   }
 ];
