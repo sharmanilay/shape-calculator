@@ -71,7 +71,6 @@ export default class MainContent extends Component{
     return returnForm;
   }
   handleOptionChange(e){
-    console.log(e.target);
     this.setState({
       shape: e.target.value
     })
